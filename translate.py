@@ -17,7 +17,7 @@ SV1;\
 .NET CLR 3.0.04506.30\
 )"}
 
-TRANSLATE_ARRAY = ["Widgets",  "some text", "another text"]
+TRANSLATE_ARRAY = ["Widgets"]
 FOLDER_PATH = 'Localizations'
 LANGS = [  # tuple array ( [FOR_LPROJ_FOLDER_NAME] , [FOR_GOOGLE_TRANSLATE_QUERY] )
     ("tr-TR", "tr"),
