@@ -31,7 +31,7 @@ python3 translator.py -i [PATH_TO_FOLDER_THAT_HOLDS_LPROJ_FOLDERS] -i [TRANSLATI
 eg:
 
 ```shell
-python3 json-creator.py -i ~/Desktop/project/Localizations -i 'Hello World' Widgets 'UI Design'
+python3 translator.py -i ~/Desktop/project/Localizations -i 'Hello World' Widgets 'UI Design'
 ```
 
 and now script will make request to google translate itself, and write results to that language `Localizable.strings` file.
@@ -57,10 +57,14 @@ and now script will make request to google translate itself, and write results t
 
 open translate.py in any code editor. inside you will find a tuple array named `LANGS` just add your value to the end of array. Tuple's first item must be lproj folder name without lproj, second will be the google translate language key. you can find this value inside google translate url parameters
 
-| ```https://translate.google.com/?sl=de&tl=ko&op=translate``` | |
+```url
+https://translate.google.com/?sl=de&tl=ko&op=translate
+```
+
+| | |
 |-| - |
 | `sl=de` | start language de which is German |
-| `tl=ko` | target language ja which is Korean |
+| `tl=ko` | target language ko which is Korean |
 
 eg:
 korean localizations are represented as `ko.lproj` in Xcode
@@ -72,4 +76,3 @@ so if you want to add korean append this line to LANGS array
 ```
 
 happy coding
-

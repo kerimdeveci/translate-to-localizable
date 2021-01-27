@@ -32,7 +32,10 @@ LANGS = [  # tuple array ( [FOR_LPROJ_FOLDER_NAME] , [FOR_GOOGLE_TRANSLATE_QUERY
     ("ja", "ja"),
     ("fr", "fr"),
     ("de", "de"),
-    ("en", "en")
+    ("en", "en"),
+    ("fr", "fr"),
+    ("it", "it"),
+    ("Base", "en")
 ]
 
 
