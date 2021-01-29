@@ -103,7 +103,7 @@ def print_to_output():
         return array
 
 
-def translate_to_language(language):
+def translate_array_to_language(language):
     """Translates the given array to the target language 
     returns a translated arrray"""
     array2 = []
@@ -128,9 +128,9 @@ def does_key_exist_in_file(translate_result, full_file_path):
         return False
 
 
-def write_results_in_file(translate_results):
+def write_results_in_file(translate_results, folder):
     """ writes the translation results to Localizable.string"""
-    file_path = FOLDER_PATH + '/' + language_folder + '/' + "Localizable.strings"
+    file_path = FOLDER_PATH + '/' + folder + '/' + "Localizable.strings"
     try:
         encoding = detect_encoding(file_path)
         with open(file_path, 'a+', encoding=encoding) as file:
@@ -171,6 +171,6 @@ if __name__ == "__main__":
             language_name = os.path.splitext(language_folder)[0]
             if language_name in script_lang[0]:
                 print(f"translating to {language_name}  ==> \n")
-                values = translate_to_language(script_lang[1])
-                write_results_in_file(values)
+                values = translate_array_to_language(script_lang[1])
+                write_results_in_file(values, language_folder)
                 print("______________________\n")
