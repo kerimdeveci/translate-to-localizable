@@ -18,7 +18,7 @@ SV1;\
 )"}
 
 TRANSLATE_ARRAY = [
-    "Contacts"
+    "App is requesting permission before you start editing",
 ]
 FOLDER_PATH = '/Users/kerimdeveci/Desktop/permatic/Permatic/Resources/Localizations'
 LANGS = [  # tuple array ( [FOR_LPROJ_FOLDER_NAME] , [FOR_GOOGLE_TRANSLATE_QUERY] )

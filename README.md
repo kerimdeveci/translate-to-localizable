@@ -38,20 +38,36 @@ and now script will make request to google translate itself, and write results t
 
 ## Supported Languages 
 
-| | |
-|-|-|
-| tr | Turkish |
-| th | Thai |
-| zh-CN,| Chinese Simplified |
-| vi | Vietnamese |
-| pt | Portuguese |
-| ru | Russian |
-| id | Indonesian |
-| es | Spanish |
-| ar | Arabic |
-| ja | Japanese |
-| fr | French |
-| de | German |
+- Arabic,
+- Belarusian,
+- Cambodian, 
+- Czech, 
+- Chinese (Simplified),
+- Chinese (Traditional), 
+- Dutch, 
+- English, 
+- French,
+- German, 
+- Hebrew, 
+- Hungarian,
+- Indonesian, 
+- Italian,
+- Japanese, 
+- Korean,
+- Malay,
+- Norwegian, 
+- Portuguese, 
+- Portuguese (brazilian), 
+- Polish, 
+- Russian, 
+- Romanian, 
+- Thai,
+- Turkish, 
+- Swedish, 
+- Spanish,
+- Spanish (latin america)
+- Ukrainian, 
+- Vietnamese, 
 
 ## Adding Languages that not supported
 
