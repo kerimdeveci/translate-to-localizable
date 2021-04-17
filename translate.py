@@ -17,24 +17,41 @@ SV1;\
 .NET CLR 3.0.04506.30\
 )"}
 
-TRANSLATE_ARRAY = ["Widgets"]
-FOLDER_PATH = 'Localizations'
+TRANSLATE_ARRAY = [
+    "Contacts"
+]
+FOLDER_PATH = '/Users/kerimdeveci/Desktop/permatic/Permatic/Resources/Localizations'
 LANGS = [  # tuple array ( [FOR_LPROJ_FOLDER_NAME] , [FOR_GOOGLE_TRANSLATE_QUERY] )
-    ("tr-TR", "tr"),
-    ("th", "th"),
-    ("zh-Hans", "zh-CN"),
-    ("vi", "vi"),
-    ("pt", "pt"),
-    ("ru", "ru"),
-    ("id", "id"),
-    ("es", "es"),
     ("ar", "ar"),
-    ("ja", "ja"),
-    ("fr", "fr"),
-    ("de", "de"),
+    ("be-BY", "be"),
+    ("km", "km"),
+    ("cs-CZ", "cs"),
+    ("zh-Hans", "zh-CN"),
+    ("zh-Hant", "zh-TW"),
+    ("nl", "nl"),
     ("en", "en"),
     ("fr", "fr"),
+    ("de", "de"),
+    ("he", "iw"),
+    ("hu-HU", "hu"),
+    ("id", "id"),
     ("it", "it"),
+    ("ja", "ja"),
+    ("ko", "ko"),
+    ("ms", "ms"),
+    ("nb", "no"),
+    ("pt-BR", "pt"),
+    ("pt-PT", "pt"),
+    ("pl", "pl"),
+    ("ru", "ru"),
+    ("ro", "ro"),
+    ("th", "th"),
+    ("tr-TR", "tr"),
+    ("sv", "sv"),
+    ("es", "es"),
+    ("es-419", "es"),
+    ("uk", "uk"),
+    ("vi", "vi"),
     ("Base", "en")
 ]
 
@@ -140,6 +157,7 @@ def write_results_in_file(translate_results, folder):
                     continue
                 file.write(f'{t_result}\n')
                 print(f"Writing {t_result} to file {file_path} ...")
+
     except IOError:
         print('File Write not Success')
 
