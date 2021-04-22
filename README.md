@@ -25,13 +25,13 @@ there are 2 arguments
 run the script like so :
 
 ```shell
-python3 translator.py -i [PATH_TO_FOLDER_THAT_HOLDS_LPROJ_FOLDERS] -l [TRANSLATION_TEXT]
+python3 translate.py -i [PATH_TO_FOLDER_THAT_HOLDS_LPROJ_FOLDERS] -l [TRANSLATION_TEXT]
 ```
 
 eg:
 
 ```shell
-python3 translator.py -i ~/Desktop/project/Localizations -l 'Hello World' Widgets 'UI Design'
+python3 translate.py -i ~/Desktop/project/Localizations -l 'Hello World' Widgets 'UI Design'
 ```
 
 and now script will make request to google translate itself, and write results to that language `Localizable.strings` file.

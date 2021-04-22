@@ -18,9 +18,9 @@ SV1;\
 )"}
 
 TRANSLATE_ARRAY = [
-    "App is requesting permission before you start editing",
+"App, needs to access your gallery to add wallpaper",
 ]
-FOLDER_PATH = '/Users/kerimdeveci/Desktop/permatic/Permatic/Resources/Localizations'
+FOLDER_PATH = '/Users/kerimdeveci/Desktop/phone-color-screen/wallpix-shared/Localizations'
 LANGS = [  # tuple array ( [FOR_LPROJ_FOLDER_NAME] , [FOR_GOOGLE_TRANSLATE_QUERY] )
     ("ar", "ar"),
     ("be-BY", "be"),
@@ -47,6 +47,7 @@ LANGS = [  # tuple array ( [FOR_LPROJ_FOLDER_NAME] , [FOR_GOOGLE_TRANSLATE_QUERY
     ("ro", "ro"),
     ("th", "th"),
     ("tr-TR", "tr"),
+    ("tr", "tr"),
     ("sv", "sv"),
     ("es", "es"),
     ("es-419", "es"),
@@ -147,7 +148,7 @@ def does_key_exist_in_file(translate_result, full_file_path):
 
 def write_results_in_file(translate_results, folder):
     """ writes the translation results to Localizable.string"""
-    file_path = FOLDER_PATH + '/' + folder + '/' + "Localizable.strings"
+    file_path = FOLDER_PATH + '/' + folder + '/' + "InfoPlist.strings"
     try:
         encoding = detect_encoding(file_path)
         with open(file_path, 'a+', encoding=encoding) as file:
