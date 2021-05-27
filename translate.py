@@ -18,7 +18,7 @@ SV1;\
 )"}
 
 TRANSLATE_ARRAY = [
-"App, needs to access your gallery to add wallpaper",
+    "App, needs to access your gallery to add wallpaper",
 ]
 FOLDER_PATH = '/Users/kerimdeveci/Desktop/phone-color-screen/wallpix-shared/Localizations'
 LANGS = [  # tuple array ( [FOR_LPROJ_FOLDER_NAME] , [FOR_GOOGLE_TRANSLATE_QUERY] )
@@ -53,6 +53,7 @@ LANGS = [  # tuple array ( [FOR_LPROJ_FOLDER_NAME] , [FOR_GOOGLE_TRANSLATE_QUERY
     ("es-419", "es"),
     ("uk", "uk"),
     ("vi", "vi"),
+    ("ko", "ko"),
     ("Base", "en")
 ]
 
